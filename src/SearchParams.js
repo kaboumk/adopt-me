@@ -1,7 +1,7 @@
 import React from "react";
 
 const SearchParams = () => {
-  const location = "Seatle, WA";
+  const location = "Seattle, WA";
   return (
     <div className="search-params">
       <form>
@@ -14,3 +14,4 @@ const SearchParams = () => {
     </div>
   );
 };
+export default SearchParams;
