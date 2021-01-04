@@ -4,6 +4,7 @@
   "description": "adopt-me",
   "main": "index.js",
   "scripts": {
+    "build": "parcel build src/index.html",
     "dev": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier \"src/**/*.{js, html, css}\" --write",
